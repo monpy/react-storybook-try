@@ -32,12 +32,3 @@ module.exports = {
     extensions: ['.js', '.jsx', '.ts', '.tsx']
   }
 };
-
-// module.exports = (storybookBaseConfig, configType) => {
-//   storybookBaseConfig.resolve.extensions.push('.ts', '.tsx');
-//   storybookBaseConfig.resolve.modules.push(
-//     path.resolve(__dirname, '../javascript'),
-//     'node_modules'
-//   );
-//   return storybookBaseConfig;
-// };
